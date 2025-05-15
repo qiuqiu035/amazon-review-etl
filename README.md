@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates a full ETL (Extract, Transform, Load) data pipeline using customer review data from Amazon. The goal is to extract raw review data, clean and enrich it using Python, load it into a Snowflake cloud data warehouse, and run SQL-based analytical queries to uncover insights.
+This project demonstrates a full ETL (Extract, Transform, Load) data pipeline using customer review data from Amazon. The goal is to extract raw review data, clean and enrich it using Python, load it into a Snowflake cloud data warehouse, run SQL-based analytical queries to uncover insights, and optionally back up selected output files to AWS S3 for external access or downstream processing.
 
 ## Data Source
 
@@ -15,6 +15,7 @@ This project demonstrates a full ETL (Extract, Transform, Load) data pipeline us
 
 * **Language**: Python (pandas, snowflake-connector)
 * **Data Warehouse**: Snowflake
+* **Cloud Backup**: AWS S3
 * **File Format**: CSV
 * **Query Language**: SQL
 

@@ -117,4 +117,4 @@ LIMIT 10;
 
 Hongyu Guo
 ETL Project (2025)
-Snowflake | Python | SQL
+Snowflake | AWS S3 | Python | SQL

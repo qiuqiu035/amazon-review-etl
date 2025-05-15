@@ -55,8 +55,6 @@ amazon-review-etl/
 │   ├── load_to_snowflake.py
 │   ├── upload_to_s3.py  
 │   └── config.py 
-├── docs/
-│ └── etl_pipeline.png
 └── README.md
 ```
 
